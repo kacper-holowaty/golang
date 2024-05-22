@@ -1,0 +1,4 @@
+curl -X GET http://localhost:8080/posts
+curl http://localhost:8080/posts/8
+curl -X POST http://localhost:8080/posts -d '{"date":"2024-05-23","country":"Poland","area":"Pomorskie","location":"Gdańsk","name":"Jan Kowalski","sex":"M","age":"33","injury":"Lost Finger"}' -H "Content-Type: application/json"
+curl -X DELETE http://localhost:8080/posts/7
